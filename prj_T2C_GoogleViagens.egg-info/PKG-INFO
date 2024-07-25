@@ -1,3 +1,22 @@
+Metadata-Version: 2.1
+Name: prj_T2C_GoogleViagens
+Version: 1.0
+Summary: Robo que consulta valores de passagens areas no google viagens.
+Description-Content-Type: text/markdown
+Requires-Dist: botcity-framework-core<1.0,>=0.4.0
+Requires-Dist: botcity-framework-web<1.0,>=0.7.0
+Requires-Dist: botcity-maestro-sdk<1.0,>=0.3.3
+Requires-Dist: botcity-email-plugin>=0.1.3
+Requires-Dist: botcity-excel-plugin>=0.1.1
+Requires-Dist: pandas>=1.5.1
+Requires-Dist: botcity-utils>=0.1.2
+Requires-Dist: openpyxl>=1.1.0
+Requires-Dist: webdriver-manager>=3.8.6
+Requires-Dist: pyodbc>=4.0.38
+Requires-Dist: opencv-python>=4.5.5.64
+Requires-Dist: botcity-recorder-plugin>=0.1.2
+Requires-Dist: clicknium==0.1.22
+
 # botcity_framework_t2c
 
 Framework used by T2C to help develop automations in BotCity
